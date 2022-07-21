@@ -1,0 +1,65 @@
+/* 1 element css 
+h1{
+    color: green;
+}
+
+a{
+    color: green;
+}
+
+h1,a{
+    color: blue;
+}
+
+h2{
+    font-style: none;
+}
+
+2 class selector
+
+.special{
+    color: red;
+    font-weight: bold;
+
+}
+h2.special, h3.special{
+    color: aqua;
+    font-weight: bold;
+}
+
+h3 em {
+    color: brown;
+}
+
+h4+p{
+    color: green;
+    font: 200px;
+}
+
+3 pseudo class selector 
+
+a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+
+4 id selector 
+
+#heading{
+    color: red;
+    background-color: black;
+
+}
+p#one{
+    color: purple;
+    background-color: green;
+} 
+
+5 attribute selector on the attribute css */

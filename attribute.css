@@ -1,0 +1,20 @@
+/*
+li[class]{
+    font-size: 300%;
+}
+
+
+li[class="a"]{
+    color: royalblue;
+}
+
+li[class~=b]{
+    color: red;
+}
+
+everything selector 
+*/
+
+*{
+    list-style-type: none;
+}
