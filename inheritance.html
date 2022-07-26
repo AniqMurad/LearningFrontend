@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inheritance</title>
+    <style>
+        body{
+            color: blue;
+        }
+        .class1 a{
+            color: inherit;
+        }
+        .class2 a{
+            color: initial;
+        }
+        .class3 a{
+            color: unset;
+        }
+        .important{
+            color: blue !important; /*this color will be applied not the style in p tag*/
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>default <a href="">Link</a>color</li>
+        <li class="class1">inherited <a href="">link</a>color</li>
+        <li class="class2">initial <a href="">link</a>color</li>
+        <li class="class3">unset <a href="">link</a>color</li>
+    </ul>
+    <p class="important" style="color: red;"> this is a red color </p>
+</body>
+</html>

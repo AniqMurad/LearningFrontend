@@ -15,6 +15,28 @@ li[class~=b]{
 everything selector 
 */
 
-*{
+/* {
     list-style-type: none;
+} */
+
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+th{
+    color: black;
+    background-color: coral;
+}
+td{
+    color: white;
+    background-color: blue;
+}
+.special {
+    color: black;
+    background-color: yellowgreen;
+}
+.spec{
+    background-color: aquamarine;
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black; 
+            width: 200px;
+            height: 100px;
+            overflow: auto; /*hidden scroll visible-which is default but auto will give a scroll if needed and scroll will give scroll always doesnot matter the text overflows or not*/
+        }
+        .b1{
+            border: 4px solid black;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain; /*this sets the image in its borders */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro at quo quae modi odio tenetur odit dolorem beatae nihil necessitatibus nesciunt suscipit iure, nemo sit dolorum ducimus! Libero nulla quibusdam consequatur recusandae neque, odit culpa iusto excepturi, aliquid inventore magni! Nostrum nesciunt sapiente quidem provident fugiat amet ab, alias deserunt dicta eius praesentium totam aliquid? Eius quis deserunt eligendi quos quam quasi fuga dolor distinctio non in ab ea, necessitatibus sit maxime ullam! Incidunt consectetur facilis illum rerum cum dolorum repellendus cupiditate quisquam reprehenderit. Dolore atque dolorem unde tempora neque perferendis sit ullam at, minus et, enim, ab velit corrupti?</div>
+
+    <p>this content is outside of the box</p>
+
+    <div class="wrapper">
+        <div class="b1"> <img src="image/boating.jpg" alt="boating"></div>
+        <div class="b1"> <img src="image/boating.jpg" alt="boating"></div>
+
+    </div>
+</body>
+</html>
