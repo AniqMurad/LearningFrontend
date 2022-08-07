@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 1em;
+      }
+
+      @media screen and (width: 600px) {
+        /*max-width means red color till 600 then default black color */
+        body {
+          color: red;
+        }
+      }
+      @media (orientation: landscape) {
+        body {
+          color: purple;
+        }
+      }
+      @media (max-width: 600px) and (orientation: landscape) {
+        body {
+          color: greenyellow;
+        }
+      } /* so the max width is less than 600 and orientation is landscape so this property will run automatically */
+      @media screen and (max-width:600px), screen and (orientation: landscape){
+        body{
+            color: chocolate;
+        }
+        
+      } /* any one property is true the output will come */
+    
+      @media not all and (orientation: landscape){
+        body{
+            color: blue;
+        }
+      } /* donot apply on landscape mode */
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum vero cum
+      pariatur asperiores saepe esse non molestias, obcaecati illo, labore alias
+      nostrum omnis et in enim deserunt quas quibusdam commodi autem atque aut
+      blanditiis qui. Accusantium ipsam similique non exercitationem, tenetur
+      quia iste quas molestias eius voluptas laboriosam provident architecto!
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
+      commodi incidunt quod dignissimos, et fugiat tempore reprehenderit eos
+      voluptatibus ab tempora perspiciatis blanditiis sit iure veritatis nihil!
+      Nobis, dignissimos pariatur. Et modi error quis magnam temporibus libero
+      in voluptatibus distinctio repellat. Rerum voluptas nemo dolorum ea
+      facilis alias, labore libero.
+    </p>
+  </body>
+</html>
